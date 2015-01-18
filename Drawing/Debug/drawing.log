@@ -1,0 +1,25 @@
+﻿Build started 2015-01-18 15:24:54.
+     1>Project "D:\!OpenGL\Zaliczeniowe\Zaliczenie\drawing.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'D:/!OpenGL/Zaliczeniowe/Zaliczenie/external/GLEW_190.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'D:/!OpenGL/Zaliczeniowe/Zaliczenie/ZERO_CHECK.vcxproj' does not exist.
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\!OpenGL\Zaliczeniowe\Zaliczenie\Debug\drawing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib "external\glfw-3.0.3\src\Debug\glfw3.lib" external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/!OpenGL/Zaliczeniowe/Zaliczenie/Debug/drawing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/!OpenGL/Zaliczeniowe/Zaliczenie/Debug/drawing.lib" /MACHINE:X64  /machine:x64 /debug drawing\Debug\controls.obj
+         drawing\Debug\shader.obj
+         drawing\Debug\drawing.obj
+         drawing.vcxproj -> D:\!OpenGL\Zaliczeniowe\Zaliczenie\Debug\drawing.exe
+       PostBuildEvent:
+         setlocal
+         "D:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/!OpenGL/Zaliczeniowe/Zaliczenie/Debug/drawing.exe D:/!OpenGL/Zaliczeniowe/Zaliczenie/Drawing/
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "D:\!OpenGL\Zaliczeniowe\Zaliczenie\drawing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42

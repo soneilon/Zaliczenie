@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1D54E1F2-DC78-4999-9BDE-A344FA3DF312}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Object</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!OpenGL\Zaliczeniowe\Zaliczenie\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">object\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!OpenGL\Zaliczeniowe\Zaliczenie\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">object\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!OpenGL\Zaliczeniowe\Zaliczenie\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">object\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!OpenGL\Zaliczeniowe\Zaliczenie\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">object\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">object</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/!OpenGL/Zaliczeniowe/Zaliczenie/$(Configuration)/object.exe D:/!OpenGL/Zaliczeniowe/Zaliczenie/Object/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Debug\glfw3.lib;external\Debug\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/!OpenGL/Zaliczeniowe/Zaliczenie/Debug/object.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/!OpenGL/Zaliczeniowe/Zaliczenie/Debug/object.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/!OpenGL/Zaliczeniowe/Zaliczenie/$(Configuration)/object.exe D:/!OpenGL/Zaliczeniowe/Zaliczenie/Object/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Release\glfw3.lib;external\Release\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/!OpenGL/Zaliczeniowe/Zaliczenie/Object/lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/!OpenGL/Zaliczeniowe/Zaliczenie/Release/object.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/!OpenGL/Zaliczeniowe/Zaliczenie/$(Configuration)/object.exe D:/!OpenGL/Zaliczeniowe/Zaliczenie/Object/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/!OpenGL/Zaliczeniowe/Zaliczenie/MinSizeRel/object.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/!OpenGL/Zaliczeniowe/Zaliczenie/MinSizeRel/object.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\AntTweakBar-1.16\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glfw-3.0.3\include\GLFW;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glm-0.9.4.0;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\glew-1.9.0\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\assimp-3.0.1270\include;D:\!OpenGL\Zaliczeniowe\Zaliczenie\external\bullet-2.81-rev2613\src;D:\!OpenGL\Zaliczeniowe\Zaliczenie\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/!OpenGL/Zaliczeniowe/Zaliczenie/$(Configuration)/object.exe D:/!OpenGL/Zaliczeniowe/Zaliczenie/Object/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/!OpenGL/Zaliczeniowe/Zaliczenie/RelWithDebInfo/object.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/!OpenGL/Zaliczeniowe/Zaliczenie/RelWithDebInfo/object.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="common\controls.cpp" />
+    <ClCompile Include="common\objloader.cpp" />
+    <ClCompile Include="common\shader.cpp" />
+    <ClCompile Include="common\text2D.cpp" />
+    <ClCompile Include="common\texture.cpp" />
+    <ClCompile Include="common\vboindexer.cpp" />
+    <ClCompile Include="Object\object.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/!OpenGL/Zaliczeniowe/Zaliczenie/external/GLEW_190.vcxproj">
+      <Project>9EB19E9E-0C89-448D-A3E6-A06F676E765C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/!OpenGL/Zaliczeniowe/Zaliczenie/external/glfw-3.0.3/src/GLFW_303.vcxproj">
+      <Project>29CC11A1-2E1D-41EB-9BB9-907D5497C046</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/!OpenGL/Zaliczeniowe/Zaliczenie/ZERO_CHECK.vcxproj">
+      <Project>DA41FDF2-161D-44D1-9226-762D5DDEF7C6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Object\FragmentShader.txt" />
+    <Text Include="Object\TextFShader.txt" />
+    <Text Include="Object\TextVShader.txt" />
+    <Text Include="Object\VertexShader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\controls.hpp" />
+    <ClInclude Include="common\objloader.hpp" />
+    <ClInclude Include="common\shader.hpp" />
+    <ClInclude Include="common\text2D.hpp" />
+    <ClInclude Include="common\texture.hpp" />
+    <ClInclude Include="common\vboindexer.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
